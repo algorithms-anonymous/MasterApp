@@ -68,7 +68,7 @@ async function run () {
     'financialBeings_',
     process.env.FINANCIAL_BEINGS_API_URL,
     process.env.FINANCIAL_BEINGS_API_PRESHARED)
-    logger.info('FINANCIAL_BEINGS schema created')
+    logger.info('Financial Beings schema created')
 
   var schemas = [masterSchema]
   var resolvers = {}
